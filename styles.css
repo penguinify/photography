@@ -1,0 +1,33 @@
+.container {
+    background-color: #eeeeee;
+    width: 75%;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.section {
+
+    margin: 1rem;
+    background-color: #dddddd;
+    padding: 1rem;
+
+
+    .split {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+
+        img {
+            width: 50%;
+            height: auto;
+        }
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+}
